@@ -1,18 +1,64 @@
-body { color : #333333; }
+body {
+    color : #333333;
+/*
+normalize.css で記述されているため削除
+    font-family: sans-serif;
+*/
+}
 
 
-p { font-size: 14px; }
+p {
+    font-size: 14px;
+    line-height: 1.429;
+}
 
+/* リスト */
+ul li {
+    font-size: 14px;
+    list-style-type: square;
+    line-height: 1.429;
+}
+
+/* 表 */
+table {
+    font-size: 14px;
+    line-height: 1.429;
+    border: 1px solid #CCCCCC;
+/*
+normalize.css で記述されているため削除
+    border-collapse: collapse;
+*/
+    width: 100%;
+
+}
+
+table th,
+table td {
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;
+}
+
+table th {
+    background-color: #EEEEEE;
+    text-align: left;
+}
+
+table caption {
+    text-align: left;
+    font-weight: bold;
+}
 
 /* 見出し*/
 .pageTitle {
     font-size: 26px;
+    line-height: 1.231;
     background-color: #F2F2E5;
     padding: 5px 15px;
 }
 
 .heading-typeA {
     font-size: 18px;
+    line-height: 1.333;
     color: #349FA6;
     border-bottom: solid 1px #349FA6;
     padding: 5px;
@@ -20,6 +66,7 @@ p { font-size: 14px; }
 
 .heading-typeB {
     font-size: 16px;
+    line-height: 1.375;
     border-left: solid 5px #E3E4D9;
     padding-left: 10px;
 }
@@ -51,4 +98,5 @@ p { font-size: 14px; }
 
 .creditUnit p {
     font-size: 12px;
+    line-height: 1.5;
 }
