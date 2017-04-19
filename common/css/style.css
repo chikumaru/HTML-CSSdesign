@@ -1,9 +1,6 @@
 body {
     color : #333333;
-/*
-normalize.css で記述されているため削除
     font-family: sans-serif;
-*/
 }
 
 
@@ -24,10 +21,8 @@ table {
     font-size: 14px;
     line-height: 1.429;
     border: 1px solid #CCCCCC;
-/*
-normalize.css で記述されているため削除
     border-collapse: collapse;
-*/
+
     width: 100%;
 
 }
